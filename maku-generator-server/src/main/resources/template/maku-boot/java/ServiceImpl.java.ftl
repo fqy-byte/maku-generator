@@ -65,7 +65,7 @@ public class ${ClassName}ServiceImpl extends BaseServiceImpl<${ClassName}Dao, ${
     }
 
     @Override
-    public void save(${ClassName} entity) {
+    public void save(${ClassName}Entity entity) {
         baseMapper.insert(entity);
     }
 

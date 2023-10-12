@@ -51,7 +51,7 @@ public class ${ClassName}Controller {
     @PostMapping
     @Operation(summary = "保存")
     @PreAuthorize("hasAuthority('${moduleName}:${functionName}:save')")
-    public Result<String> save(@RequestBody ${ClassName} entity){
+    public Result<String> save(@RequestBody ${ClassName}Entity entity){
         ${className}Service.save(entity);
 
         return Result.ok();
