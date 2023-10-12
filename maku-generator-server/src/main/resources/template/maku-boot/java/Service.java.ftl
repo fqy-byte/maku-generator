@@ -18,7 +18,7 @@ public interface ${ClassName}Service extends BaseService<${ClassName}Entity> {
 
     PageResult<${ClassName}VO> page(${ClassName}Query query);
 
-    void save(${ClassName}VO vo);
+    void save(${ClassName} entity);
 
     void update(${ClassName}VO vo);
 

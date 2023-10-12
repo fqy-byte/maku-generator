@@ -65,9 +65,7 @@ public class ${ClassName}ServiceImpl extends BaseServiceImpl<${ClassName}Dao, ${
     }
 
     @Override
-    public void save(${ClassName}VO vo) {
-        ${ClassName}Entity entity = ${ClassName}Convert.INSTANCE.convert(vo);
-
+    public void save(${ClassName} entity) {
         baseMapper.insert(entity);
     }
 
